@@ -17,7 +17,7 @@ const DataGrid = () => {
         (status === "active" ? rocket.active : !rocket.active)) &&
       (original_launch === "" ||
         rocket.first_flight.includes(original_launch)) &&
-      (type === "" || rocket.type === type)
+      (type === "" || rocket.rocket_type === type)
     );
   });
 

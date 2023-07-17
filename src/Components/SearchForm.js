@@ -10,9 +10,9 @@ const SearchForm = () => {
   };
 
   return (
-    <div className="p-4 bg-white border border-gray-300">
+    <div className="p-4 d-flex bg-white border border-gray-300">
       <h2 className="text-xl font-bold mb-4">Search Filters</h2>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-3 gap-4">
         <div>
           <label htmlFor="status">Status:</label>
           <select
